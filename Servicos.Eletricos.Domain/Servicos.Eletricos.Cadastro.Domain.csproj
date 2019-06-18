@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Servicos.Eletricos.Cadastro.Domain</AssemblyName>
+    <RootNamespace>Servicos.Eletricos.Cadastro.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Servicos.Eletricos.Core.Domain\Servicos.Eletricos.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
